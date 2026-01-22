@@ -1,0 +1,8 @@
+{
+    "python.defaultInterpreterPath": "/home/im_ane/Machine-learning/.venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "jupyter.kernels.excludePythonEnvironments": [
+        "venv\\Scripts\\python.exe",
+        "C:\\"
+    ]
+}
