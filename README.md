@@ -25,3 +25,4 @@ The feature matrix (a 2D array of shape (n_samples, n_features)).
 `housing.feature_names:` This is a list of strings representing the names of each feature in the dataset.
 The names of the features (e.g., ['MedInc', 'HouseAge', ...]).
 housing.DESCR: A description of the dataset.
+![alt text](image.png)
