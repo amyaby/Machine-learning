@@ -25,10 +25,10 @@ The feature matrix (a 2D array of shape (n_samples, n_features)).
 `housing.feature_names:` This is a list of strings representing the names of each feature in the dataset.
 The names of the features (e.g., ['MedInc', 'HouseAge', ...]).
 housing.DESCR: A description of the dataset.
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](readme_images/image.png)
+![alt text](readme_images/image-1.png)
+![alt text](readme_images/image-2.png)
+![alt text](readme_images/image-3.png)
 # .fit() = LEARN/TRAIN
 model.fit(X_train, y_train)
 # "Study these examples and find patterns"
@@ -36,7 +36,7 @@ model.fit(X_train, y_train)
 # .predict() = USE KNOWLEDGE
 predictions = model.predict(X_test)
 # "Use what you learned to answer new questions"
-![alt text](image-4.png)
+![alt text](readme_images/image-4.png)
 ---
  ### polinomila regression :
  Step 1: SPLIT (This line)
