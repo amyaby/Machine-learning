@@ -61,3 +61,17 @@ Step 5: EVALUATE
 # Compare predictions with REAL answers (y_test)
 accuracy = model.score(X_test, y_test)
 ```
+SimpleImputer is a tool from scikit-learn that automatically fills in missing values (NaN) in your data.
+How it works:
+Instead of manually filling missing values, **SimpleImputer** does it for you using different strategies:
+pythonfrom sklearn.impute import SimpleImputer
+```python
+# Create an imputer that fills missing values with the median
+imputer = SimpleImputer(strategy='median')
+
+# Learn the median from training data and fill missing values
+X_train = imputer.fit_transform(X_train)
+
+# Use the SAME median from training data to fill test data
+X_test = imputer.transform(X_test)
+```
