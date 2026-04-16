@@ -1,3 +1,4 @@
+![alt text](images/image-00.png)
 ## **1. Understanding Libraries**
 
 ### **a. Python Libraries Overview**
