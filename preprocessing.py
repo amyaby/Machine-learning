@@ -14,14 +14,12 @@ print("Shape of target (y):", y.shape)
 
 # --- Step 2: Initialize the scaler ---
 # Your code for creating a StandardScaler instance goes here
-# --- Step 2: Initialize the scaler ---
 scaler = StandardScaler()
 
 print("Scaler object created:", scaler)
 
 # --- Step 3: Fit the scaler ---
 # Your code for fitting the scaler goes here
-# --- Step 3: Fit the scaler ---
 scaler.fit(X)
 
 print("Scaler mean:", scaler.mean_)
@@ -29,7 +27,6 @@ print("Scaler mean:", scaler.mean_)
 # --- Step 4: Transform the data ---
 # Your code for transforming the data goes here
 # We will store the transformed data in a new variable, X_scaled, to keep the original data intact.
-# --- Step 4: Transform the data ---
 X_scaled = scaler.transform(X)
 
 # Use numpy to set precision for cleaner output
@@ -39,7 +36,6 @@ print("Scaled data mean:", np.mean(X_scaled, axis=0))
 print("Scaled data sample:\n", X_scaled[:5])
 # --- Step 5: Encode the target ---
 # Your code for encoding the target variable goes here
-# --- Step 5: Encode the target ---
 encoder = LabelEncoder()
 y_encoded = encoder.fit_transform(y)
 
